@@ -1,0 +1,25 @@
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item-p{
+    font-size: max(1.4vw,16px);
+    text-align: center;
+}
+
+
+@media (max-width:1050px) {
+    .explore{
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .para2{
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .para2{
+        width: 100%;
+    }
+}

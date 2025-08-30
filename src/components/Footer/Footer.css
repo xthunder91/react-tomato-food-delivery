@@ -1,0 +1,24 @@
+.footer{
+    padding: 20px 8vw;
+    padding-top: 80px;
+    margin-top: 50px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+hr{
+    margin: 20px 0px;
+}
+
+@media (max-width:750px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+}

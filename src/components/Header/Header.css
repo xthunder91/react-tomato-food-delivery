@@ -1,0 +1,62 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.fadeIn-animation{
+    animation: fadeIn 3s;
+}
+.size{
+    font-size: max(3.7vw,22px);
+}
+
+.food-item-info{
+    padding: 20px;
+}
+.food-item-counter{
+    padding: 5px;
+    height: 40px;
+}
+.top{
+    margin-top: 15px;
+}
+
+
+
+@media (max-width:1050px) {
+   
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px) {
+    .top{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .header-contents{
+        max-width: 95%;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-contents .para{
+        display: none;
+    }
+    .header-contents .size{
+        font-size: max(3.7vw,18px);
+    }
+    .header-contents .button1{
+        padding: 2vw, 4vw;
+        height: 30px;
+        width: 80px;
+        font-size:15px;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+}

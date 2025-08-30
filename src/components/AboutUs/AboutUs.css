@@ -1,0 +1,48 @@
+.about-us{
+    margin-top: 100px;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.fadeIn-animation{
+    animation: fadeIn 1.5s;
+}
+
+
+
+
+@media (max-width: 750px) {
+  .about-us {
+    padding: 24px 12px;
+  }
+  .about-us .cointainer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0;
+  }
+  .about-us .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .about-us .tagbox {
+    padding: 0;
+  }
+  .about-us .tag {
+    height: 350px;
+    border-radius: 24px;
+  }
+  .about-us p,
+  .about-us h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+
+
+

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.size3{
+    margin-top: 30px;
+}
+
+@media (max-width: 750px) {
+    .app-download{
+        font-size: smaller;
+        font-weight: 200;
+    }
+    .app-download p{
+        font-size: medium;
+        font-weight: 200;
+    }
+    .size3 img{
+        max-width: 1200px;
+        margin-left: 10px;
+    }
+}

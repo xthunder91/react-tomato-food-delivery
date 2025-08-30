@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+.margin{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1050px) {
+    .logo{
+        width: 140px;
+    }
+    .menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .right{
+        gap: 30px;
+    }
+    .right img{
+        width: 22px;
+    }
+    .right button{
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .logo{
+        width: 120px;
+    }
+    .menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .right{
+        gap: 20px;
+    }
+    .right img{
+        width: 20px;
+    }
+    .right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px){
+    .navbar{
+       justify-content: space-around;
+        width: 80%;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .navbar ul{
+        gap: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .button2{
+        height: 50px;
+        width: 80px;
+        font-size:2px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
